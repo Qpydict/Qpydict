@@ -10,16 +10,10 @@ include = ["*"]
 Add = ["*.c"]
 
 [project]
-name            = "hello_world"
-version         = "1.0.0"
-description     = "A minimal CPython C-extension exposing an Adder class."
-readme          = "README.md"
-license         = { file = "LICENSE" }
-requires-python = ">=3.8"
-
-[project]
 name = "Qpydict"
+description = "A Fast Python Dictionary"
 version = "0.0.0"
+requires-python = ">=3.11"
 authors = [{name = "Michael Saviour", email = "saviourme33@gmail.com"}]
 maintainers = [
 	    {
@@ -27,11 +21,11 @@ maintainers = [
 		email = "saviourme33@gmail.com"
 	     }
 ]
-description = "A Fast Python Dictionary"
 readme = {
        file = "README.md",
        content-type = "text/markdown"
        }
+license  = { file = "LICENSE" }
 keywords = ["Qpydict", "dict", "pydict", "dictionary", "fast", "Map"]
 classifiers = [
     "Development Status :: 0",
